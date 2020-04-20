@@ -5,14 +5,68 @@
   padding:0;
   border:0;
 }
-
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
 /*--------------------------------------Global */
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
 body{
     font-family:Lato;
     color:#777777;
+    font-size: 1.6rem;
   }
 .row img{
     max-width:100%;
+}
+
+
+
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+ .h1, .h2, .h3, h1, h2, h3 {
+ 
+}
+
+#main-container h1, 
+#main-container h2,
+#main-container h3,
+#main-container h4,
+#main-container h5,
+#main-container h6{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight:700;
+}
+
+
+
+#main-container h3 {
+    padding-bottom:10px;
+    border-bottom: 4px solid #ddd;
 }
 
 /*--------------------------------------Fonts */
@@ -95,31 +149,6 @@ h1{
     background-color: #f4f4f4;
 }
 
-h1,
-h2,
-h3,
-h4 {
-    margin: 0;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.general-sub {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    color: #fafafa;
-}
-
-.inline-block {
-    display: inline-block;
-}
-
-.row-table {
-    display: table;
-}
-
 .section-column {
     display: table-cell;
     padding: 0 30px 30px;
@@ -148,10 +177,12 @@ h4 {
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
-
     border-left: 1px solid;
+    font-size: 1.6em;
 }
-
+.timeline-item h3{
+    font-weight:700;
+}
 .timeline-item p {
     padding: 0;
     margin: 0;
