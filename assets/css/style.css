@@ -16,6 +16,13 @@ ol, ul {
     margin-bottom: 0;
 
 }
+.main-content h1, .main-content h2, .main-content h3, .main-content h4{
+    margin-bottom:10px;
+}
+.main-content h1.heading{margin-bottom:20px;}
+.fa{
+    margin:0 20px 0 0;
+}
 
 body{
     font-family:Lato;
@@ -154,8 +161,16 @@ header{background:#fff;}
     background-repeat:no-repeat;
 }
 
-
-
+.section-column ul{
+    list-style:none;
+    margin: 20px 0 0 0;
+}
+.section-column ul > li{
+    margin:0 0 20px 0;
+}
+.section-column a{
+    color: #6a7993;
+}
 /*--------------------------------------Left Column */
 .bg-color-personal-info {
     background-color: #f4f4f4;
@@ -176,6 +191,8 @@ header{background:#fff;}
     text-transform:uppercase;
 }
 /* ----------------------------------------Homepage */
+
+
 .home-row{
     margin:0 0 40px 0;
 }
@@ -272,14 +289,22 @@ header{background:#fff;}
 .page-interests p, .page-interests h2, .page-interests h3, legend{
     color:#fff;
 }
-
-#photo-2{
+.photo{
     clear:both;
     line-height:0;
-    column-count:2;
     column-gap:0;
-  }
-  #photo img{
+}
+
+#photo-2{
+    column-count:2;
+}
+
+
+#photo-4{
+    column-count:4;
+}
+
+.photo img{
     width:100%;
   }
 
