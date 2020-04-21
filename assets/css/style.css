@@ -20,12 +20,20 @@ ol, ul {
 body{
     font-family:Lato;
     color:#777777;
-    font-size: 1.6rem;
+    font-size:1em;
   }
 .row img{
     max-width:100%;
 }
 
+.progress-bar{
+    background-color:#9acef5; 
+    background-image: linear-gradient(#9acef5, #afecb4);
+}
+.bg-success{
+    background-color:#9acef5; 
+    background-image: linear-gradient(#d2b8f5, #c7d9ef);
+}
 
 
 
@@ -74,6 +82,9 @@ h1{
     font-family:Oswald, sans-serif;
     font-size: 1.8em;
 }
+.progress{
+    margin-bottom: 5px;
+}
 /*--------------------------------------Header */
 
 .header-top h1{
@@ -84,6 +95,7 @@ h1{
 .skills{
     height:200px;
 }
+header{background:#fff;}
 
 .header-middle{
 
@@ -151,20 +163,21 @@ h1{
 
 .section-column {
     display: table-cell;
-    padding: 0 30px 30px;
+    padding: 0 30px 0px;
     float: none;
+    background: #e7effc;
 }
 
-.history-heading,
-.section-heading {
+.heading{
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    text-transform:uppercase;
 }
-
-.bg-color-work-history {
-
+/* ----------------------------------------Homepage */
+.home-row{
+    margin:0 0 40px 0;
 }
 
 /* ----------------------------------------Work History */
@@ -178,7 +191,7 @@ h1{
     padding: 4em 2em 0em 2em;
     position: relative;
     border-left: 1px solid;
-    font-size: 1.6em;
+
 }
 .timeline-item h3{
     font-weight:700;
@@ -210,14 +223,55 @@ h1{
     left: -6px;
     border-radius: 12px;
     content: '';
-    background: #000;
+    background: #fd565e;
 }
 
 .history-items {
     margin-bottom: 30px;
+ 
 }
 
 .skillset .fa{display:block;}
+
+
+/* ----------------------------------------Skills bar */
+.bar100{
+    width:100%;
+}
+
+.bar95{
+    width:95%;
+}
+
+.bar90{
+    width:90%;
+}
+.bar85{
+    width:85%;
+}
+.bar80{
+    width:80%;
+}
+.bar75{
+    width:75%;
+}
+.bar70{
+    width:70%;
+}
+.bar65{
+    width:65%;
+}
+.bar60{
+    width:60%;
+}
+.bar55{
+    width:55%;
+}
+
+
+.page-interests p, .page-interests h2, .page-interests h3, legend{
+    color:#fff;
+}
 
 /*--------------------------------------Footer */
 .footer {
@@ -230,6 +284,6 @@ h1{
 /*--------------------------------------Responsive */
 @media (min-width: 1200px){
     .container {
-        max-width: 1280px;
+        max-width: 1480px;
     }
 }

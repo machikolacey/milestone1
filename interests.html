@@ -9,6 +9,27 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
         <link rel="stylesheet" href="assets/css/style.css">
+       <script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="assets/js/vegas.min.js"></script>
+<link rel="stylesheet" href="assets/css/vegas.min.css">
+        <script>
+            $(document).ready(function(){
+              $('body').vegas({
+                delay: 7000,
+                timer: false,
+                shuffle: true,
+                firstTransition: 'fade',
+                firstTransitionDuration: 5000,
+                transition: 'slideDown2',
+                transitionDuration: 2000,
+                slides: [
+                    { src: 'assets/images/space1.jpg' }
+                ]
+            });
+            
+            });
+            
+                </script>
         <title>Rosie</title>
     </head>
 <body>
@@ -58,82 +79,30 @@
       </div>
       
       </header>
-    <section class="container-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h3 class="heading">
-                        Education
-                    </h3>
-                </div>
-            </div>
-        <div class="row">
-            <div class="col-md-4 bg-color-work-history section-column">
-        
-                <div class="history-items">
-                    <div class="timeline-item" data-dates="03/2020 - 03/2021">
-                        <h4>Edinburgh Napier University</h4>
-                        <p>Diploma in Software Development</p>
-                    </div>
-                    <div class="timeline-item" data-dates="04/2005 - 03/2007">
-                        <h4>LTC College</h4>
-                        <p>Diploma in Web Technology and E-Commerce</p>
-                    </div>
-                    <div class="timeline-item" data-dates="04/1992 - 03/1996">
-                        <h4>Himeji Dokkyo University</h4>
-                        <p>B.A. in Linguistics</p>
-                    </div>
-                    <div class="timeline-item" data-dates="04/1989 - 03/1992">
-                        <h4>Shizuoka Girls School</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-8 bg-color-three-reasons">
-      
-             <fieldset>
-                <legend>Diploma in Software Development</legend>
-                    <p>I started learning onlilne. I am looking forward to learning Python later.</p>
-                    <p>Code Institute’s Diploma in Software Development is an intense coding bootcamp created and validated by tech industry experts and academics.</p>
-                    <ul>
-                        <li>Programme Preliminaries</li>
-                        <li>Programming Paradigms</li>
-                        <li>HTML Fundamentals</li>
-                        <li>CSS Fundamentals</li>
-                        <li>User Centric Frontend Development</li>
-                        <li>JavaScript Fundamentals</li>
-                        <li>Interactive Frontend Development</li>
-                        <li>Python Fundamentals</li>
-                        <li>Practical Python</li>
-                        <li>Data Centric Development (Node.js)</li>
-                    </ul>
-             </fieldset>
-             <fieldset>
-                <legend>Diploma in Web Technology and E-Commerce</legend>
-                    <p>I enjoyed learning programming in London. I have done an E-commerce website for a final project.</p>
-                 <ul>
-                        <li>Microsoft Office Package (Word, Excel, Power Point, Access)</li>
-                        <li>Adobe Design Package (Photoshop, Illustrator, Flash) </li>
-                        <li>Javascript</li>
-                        <li>CSS Fundamentals</li>
-                        <li> HTML, XML, XHTML, XSL, CSS</li>
-                        <li>ASP and ASP.NET</li>
-                        <li>Visual Basic</li>
-                        <li>JSP programming</li>
-                        <li>JAVA</li>
-                        <li>C++</li>
-                        <li>Project: Shopping- cart (ASP, Apache web server)</li>
-                    </ul>
-             </fieldset>              
-   
-             <fieldset>
-                <legend>B.A. in Linguistics</legend>
-                    <p>I graduated Himeji Dokkyo University (a part of Dokkyo Gakuen), which is reknowned for Language education.</p>
-     <p>At the time they had 3 departmets, English, German, Chinese, and Japanese. I majoured in English.</p>
-    <p>I have started students' newspaper club. Organised the team to write articles about activities in the University. I have arranged to edit articles using Mac. </p> 
-             </fieldset>  
-   
-            </div>
-        </div>
+    <section class="container-fluid page-interests">
+        <div class="container ">
+            <h2 class="heading">Interests</h2>
+    <fieldset>
+        <legend>Piano</legend>
+        <p>I play piano since age of 6. I've started in Classical music, now I am playing Jazz.</p>
+        <p>I also compose some piano songs.</p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Synthesizer</legend>
+        <p>I play synthesizer in a rock band in Brighton.</p>
+        <p>My machines are Korg Microkorg and Roland JUNO-DS.</p>
+    </fieldset>
+    <fieldset>
+        <legend>Stars</legend>
+        <p>I like watching stars.</p>
+ 
+    </fieldset>
+    <fieldset>
+        <legend>British pop music.</legend>
+        <p>I am a huge fan of Pet Shop Boys and Erasure.</p>
+ 
+    </fieldset>
     </div>
     </section>
     <footer class="container-fluid">
