@@ -273,6 +273,22 @@ header{background:#fff;}
     color:#fff;
 }
 
+#photo-2{
+    clear:both;
+    line-height:0;
+    column-count:2;
+    column-gap:0;
+  }
+  #photo img{
+    width:100%;
+  }
+
+    @media (max-width: 400px) {
+    .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    }
+    }
 /*--------------------------------------Footer */
 .footer {
 
