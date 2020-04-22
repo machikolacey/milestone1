@@ -93,6 +93,15 @@ body{
     border-bottom: 4px solid #ddd;
 }
 
+
+h2{
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
 /*--------------------------------------Navbar */
 
 .navbar-light .navbar-nav .nav-link {
@@ -100,20 +109,19 @@ body{
     font-weight: 700;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
 .navbar-light .navbar-nav .nav-link.active{
-  background:#f79621;
-  color:#fff;
+    color: #fff;
+    border-bottom:4px solid #fff;
 }
 
 
 .bg-light {
 padding:0;
-background: #f9c667; /* Old browsers */
-background: -moz-linear-gradient(top,  #f9c667 0%, #f79621 36%, #f79621 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #f9c667 0%,#f79621 36%,#f79621 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #f9c667 0%,#f79621 36%,#f79621 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c667', endColorstr='#f79621',GradientType=0 ); /* IE6-9 */
-
+background: #f79621 !important;
 }
 
 /*--------------------------------------Fonts */
@@ -227,6 +235,7 @@ header{background:#fff;}
     margin-top: 25px;
     margin-bottom: 30px;
     text-transform:uppercase;
+    color: #f79621;
 }
 /* ----------------------------------------Homepage */
 
@@ -376,6 +385,19 @@ footer a {
 }
 
 /*--------------------------------------Responsive */
+@media screen and (max-width:768px){
+    .header-skills {
+        font-size: 1rem;
+        max-width: 90%;
+        position: relative;
+        max-width: 90%;
+        left: 5%;
+    }
+    .header-skills h3 {
+        font-size: 1rem;
+    }
+
+}
 @media (min-width: 1200px){
     .container {
         max-width: 1480px;
