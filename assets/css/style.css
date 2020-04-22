@@ -44,6 +44,16 @@ body{
     background-image: linear-gradient(#d2b8f5, #c7d9ef);
 }
 
+.progress {
+    display: -ms-flexbox;
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: 0.95rem;
+    font-weight: 700;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
 
 
 .uppercase {
@@ -64,11 +74,6 @@ body{
 }
 
 
-
-.bg-light {
-    background-color: #fbd66d !important;
-}
-
 #main-container h1, 
 #main-container h2,
 #main-container h3,
@@ -84,7 +89,31 @@ body{
 
 #main-container h3 {
     padding-bottom:10px;
+    margin-top: 45px;
     border-bottom: 4px solid #ddd;
+}
+
+/*--------------------------------------Navbar */
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+  background:#f79621;
+  color:#fff;
+}
+
+
+.bg-light {
+padding:0;
+background: #f9c667; /* Old browsers */
+background: -moz-linear-gradient(top,  #f9c667 0%, #f79621 36%, #f79621 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f9c667 0%,#f79621 36%,#f79621 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f9c667 0%,#f79621 36%,#f79621 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c667', endColorstr='#f79621',GradientType=0 ); /* IE6-9 */
+
 }
 
 /*--------------------------------------Fonts */
@@ -139,6 +168,7 @@ header{background:#fff;}
     left: 50px;
     position: absolute;
     color:#fff;
+    box-shadow: 4px 4px 2px rgba(0,0,0,0.6);
 }
 .header-skills img{
     max-width:35px;
@@ -148,6 +178,15 @@ header{background:#fff;}
 .header-skills-wrapper{
     position:relative;
 }
+
+@keyframes hero-move{
+    from{
+      transform:scale(1);
+    }
+    to{
+      transform:scale(1.1);
+    }
+  }
 
 @keyframes hero-zoom{
     from{
@@ -164,10 +203,7 @@ header{background:#fff;}
     background-repeat:no-repeat;
 }
 
-.section-column ul{
-    list-style:none;
-    margin: 20px 0 0 0;
-}
+
 .section-column ul > li{
     margin:0 0 20px 0;
 }
@@ -183,7 +219,6 @@ header{background:#fff;}
     display: table-cell;
     padding: 0 30px 0px;
     float: none;
-    background: #e7effc;
 }
 
 .heading{
@@ -204,9 +239,17 @@ header{background:#fff;}
 footer{
     background: #e7effc;
     border-top: 0.5px solid #e2d8d8;
-    padding-top:10px;
+    padding: 40px 20px;
+    margin-top: 25px;
 }
 
+footer ul{
+    list-style:none;
+    margin: 20px 0 0 0;
+}
+a {
+    color: #777777;
+}
 /* ----------------------------------------Work History */
 
 .history-heading {
