@@ -237,18 +237,18 @@ header{background:#fff;}
 
 /* ----------------------------------------Footer */
 footer{
-    background: #e7effc;
-    border-top: 0.5px solid #e2d8d8;
+    background: #f79621;
     padding: 40px 20px;
     margin-top: 25px;
+    color: #fff;
 }
 
 footer ul{
     list-style:none;
     margin: 20px 0 0 0;
 }
-a {
-    color: #777777;
+footer a {
+    color: #fff;
 }
 /* ----------------------------------------Work History */
 
