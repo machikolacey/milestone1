@@ -11,6 +11,17 @@ ol, ul {
     margin-left: 25px;
 }
 /*--------------------------------------Global */
+a {
+    color: #f79621;
+}
+.btn-primary {
+    background-color: #f79621;
+    border-color: #f79621;
+}
+.action-buttons{
+    padding-top: 10px;
+    text-align: right;
+}
 .h1, .h2, .h3, h1, h2, h3 {
     margin-top: 0;
     margin-bottom: 0;
@@ -18,6 +29,10 @@ ol, ul {
 }
 .main-content h1, .main-content h2, .main-content h3, .main-content h4{
     margin-bottom:10px;
+}
+
+.main-content h2{
+    color: #f79621;
 }
 .main-content h1.heading{
     margin-bottom:20px;
@@ -120,8 +135,8 @@ h2{
 
 
 .bg-light {
-padding:0;
-background: #f79621 !important;
+    padding: 5px 0;
+    background: #f79621 !important;
 }
 
 /*--------------------------------------Fonts */
@@ -242,6 +257,10 @@ header{background:#fff;}
 
 .home-row{
     margin:0 0 40px 0;
+}
+
+.home-row img {
+   box-shadow:2px 2px 2px rgba(0,0,0,0.3);
 }
 
 /* ----------------------------------------Footer */
@@ -396,7 +415,9 @@ footer a {
     .header-skills h3 {
         font-size: 1rem;
     }
-
+    .timeline-item h3 {
+        font-size:1.2rem;
+    }
 }
 @media (min-width: 1200px){
     .container {
