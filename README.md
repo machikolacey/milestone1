@@ -28,42 +28,39 @@
         <p>This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.</p>
         <h2>Features</h2>
         <p>In this section, you should go over the different parts of your project, and describe each in a sentence or so.</p>
-
         <ul>
         <li>Skills Page - allows users to see my skill set in progress bars, they can easily compare the skill sets</li>
         <li>Home Page - allows users to click on links to relevant github pages</li>
         <li>Graphics Page - allows users to see photo slider by clicking on one of the images</li>
         <li>Download link on Footer - allows users to download my CV by clicking on it</li>
         </ul>
-
-<h2>Technologies Used</h2>
-
-<ul>
-<li><a href="https://vegas.jaysalvat.com/" rel="nofollow">Vegas.js</a>
-    <ul>
-    <li>The project uses <strong>Vegas</strong> to display animated background.</li>
-    </ul>
-</li>
-<li><a href="https://lokeshdhakar.com/projects/lightbox2/" rel="nofollow">Lightbox</a>
-    <ul>
-    <li>The project uses <strong>Lightbox</strong> to display photo slider.</li>
-    </ul>
-</li>
-<li><a href="https://jquery.com" rel="nofollow">JQuery</a>
-    <ul>
-    <li>The project uses <strong>JQuery</strong> to simplify DOM manipulation.</li>
-    </ul>
-</li>
-<li><a href="https://getbootstrap.com/" rel="nofollow">Bootstrap</a>
-    <ul>Bootstrap</strong> to display a clean responsive layout.</li>
-    </ul>
-</li>
-<li><a href="https://fontawesome.com/" rel="nofollow">FontAwesome</a>
-    <ul>
-    <li>The project uses <strong>FontAwesome</strong> to display effective buttons.</li>
-    </ul>
-</li>
-</ul>
+        <h2>Technologies Used</h2>
+        <ul>
+        <li><a href="https://vegas.jaysalvat.com/" rel="nofollow">Vegas.js</a>
+            <ul>
+            <li>The project uses <strong>Vegas</strong> to display animated background.</li>
+            </ul>
+        </li>
+        <li><a href="https://lokeshdhakar.com/projects/lightbox2/" rel="nofollow">Lightbox</a>
+            <ul>
+            <li>The project uses <strong>Lightbox</strong> to display photo slider.</li>
+            </ul>
+        </li>
+        <li><a href="https://jquery.com" rel="nofollow">JQuery</a>
+            <ul>
+            <li>The project uses <strong>JQuery</strong> to simplify DOM manipulation.</li>
+            </ul>
+        </li>
+        <li><a href="https://getbootstrap.com/" rel="nofollow">Bootstrap</a>
+            <ul>Bootstrap</strong> to display a clean responsive layout.</li>
+            </ul>
+        </li>
+        <li><a href="https://fontawesome.com/" rel="nofollow">FontAwesome</a>
+            <ul>
+            <li>The project uses <strong>FontAwesome</strong> to display effective buttons.</li>
+            </ul>
+        </li>
+        </ul>
     <h2>Testing</h2>    
     <ol>
     <li>Graphic Photos:
@@ -76,10 +73,8 @@
     </ol>
     </li>
     </ol>                               
-
     <h2><a id="user-content-deployment" class="anchor" aria-hidden="true" href="#deployment"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Deployment</h2>
     <p>The page is deployed by Github pages. There is only master branch.</p>
-
     <p>In addition, if it is not obvious, you should also describe how to run your code locally.</p>
     <h2><a id="user-content-credits" class="anchor" aria-hidden="true" href="#credits"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Credits</h2>
     <h3><a id="user-content-content" class="anchor" aria-hidden="true" href="#content"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Content</h3>
