@@ -40,10 +40,29 @@ they click on a button they will be led to the relevant github page.</p>
 <h2>Technologies Used</h2>
 
 <ul>
+<li><a href="https://vegas.jaysalvat.com/" rel="nofollow">Vegas.js</a>
+    <ul>
+    <li>The project uses <strong>Vegas</strong> to display animated background.</li>
+    </ul>
+</li>
+<li><a href="https://lokeshdhakar.com/projects/lightbox2/" rel="nofollow">Lightbox</a>
+    <ul>
+    <li>The project uses <strong>Lightbox</strong> to display photo slider.</li>
+    </ul>
+</li>
 <li><a href="https://jquery.com" rel="nofollow">JQuery</a>
-<ul>
-<li>The project uses <strong>JQuery</strong> to simplify DOM manipulation.</li>
-</ul>
+    <ul>
+    <li>The project uses <strong>JQuery</strong> to simplify DOM manipulation.</li>
+    </ul>
+</li>
+<li><a href="https://getbootstrap.com/" rel="nofollow">Bootstrap</a>
+    <ul>Bootstrap</strong> to display a clean responsive layout.</li>
+    </ul>
+</li>
+<li><a href="https://fontawesome.com/" rel="nofollow">FontAwesome</a>
+    <ul>
+    <li>The project uses <strong>FontAwesome</strong> to display effective buttons.</li>
+    </ul>
 </li>
 </ul>
 <h2>Testing</h2>
