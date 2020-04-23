@@ -18,9 +18,15 @@ a {
     background-color: #f79621;
     border-color: #f79621;
 }
+.btn-secondary {
+    color: #222;
+    background-color:transparent;
+    border-color:transparent;
+    margin-bottom: 10px;
+}
+
 .action-buttons{
-    padding-top: 10px;
-    text-align: right;
+    margin-bottom: 10px;
 }
 .h1, .h2, .h3, h1, h2, h3 {
     margin-top: 0;
@@ -38,7 +44,7 @@ a {
     margin-bottom:20px;
 }
 .fa{
-    margin:0 20px 0 0;
+    margin: 0 10px 0 10px;
 }
 
 body{
@@ -183,7 +189,7 @@ header{background:#fff;}
     text-transform: uppercase;
     letter-spacing: 4px;
     width: 500px;
-    height: 200px;
+    height: 170px;
     padding-top: 40px;
     padding-left: 10px;
     background-color: rgba(100, 153, 230,0.7);
