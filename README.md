@@ -1,7 +1,3 @@
-# milestone1
-
-# milestone1
-
 <div id="readme" class="Box md js-code-block-container Box--condensed">
     <div class="Box-header d-flex flex-items-center flex-justify-between ">
       <h2 class="Box-title pr-3">
