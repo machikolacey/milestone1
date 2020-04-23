@@ -18,11 +18,24 @@ a {
     background-color: #f79621;
     border-color: #f79621;
 }
+.btn-primary:hover,
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle
+ {
+    background-color: #f79117;
+    border-color: #f79117;
+}
 .btn-secondary {
     color: #222;
     background-color:transparent;
     border-color:transparent;
     margin-bottom: 10px;
+}
+
+.btn-secondary:hover {
+    color: #222;
+    background-color:transparent;
+    border-color:transparent;
+    text-decoration:underline;
 }
 
 .action-buttons{
@@ -40,6 +53,20 @@ a {
 .main-content h2{
     color: #f79621;
 }
+
+legend{
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 10px;
+    margin-top: 45px;
+    border-bottom: 4px solid #ddd;
+}
+fieldset{
+    margin:10px 0 0 0;
+}
+
+.ab-first-line{display:none;}
+
 .main-content h1.heading{
     margin-bottom:20px;
 }
@@ -373,9 +400,7 @@ footer a {
 }
 
 
-.page-interests p, .page-interests h2, .page-interests h3, legend{
-    color:#fff;
-}
+
 .photo{
     clear:both;
     line-height:0;
@@ -401,6 +426,11 @@ footer a {
     padding-right: 1.1rem;
     }
     }
+
+.education-logo{
+    margin:0 0 10px 0;
+}
+
 /*--------------------------------------Footer */
 .footer {
 
