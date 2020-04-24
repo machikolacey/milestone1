@@ -442,6 +442,12 @@ footer a {
 
 /*--------------------------------------Responsive */
 @media screen and (max-width:768px){
+    ul.contact li{
+        display:inline-block;
+    }
+    .general-sub {
+        margin-top: 20px;
+    }
     .header-skills {
         font-size: 1rem;
         max-width: 90%;
