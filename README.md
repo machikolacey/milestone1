@@ -79,26 +79,32 @@ https://machikolacey.github.io/milestone1/assets/wireframe/ms1_wireframe.pdf
     </ol> 
     <ol>
     <li>Overview Page:
-    <ol>
-    <li>Check on PC, tablet size, mobile phone size to see it works as expected</li>
+            <ol>
+            <li>Check on PC, tablet size, mobile phone size to see it works as expected</li>
+            </ol>
+    </li>
     </ol>
      <ol>
     <li>Skills Page:
-    <ol>
-    <li>Check on PC, tablet size, mobile phone size to see it works as expected</li>
+        <ol>
+        <li>Check on PC, tablet size, mobile phone size to see it works as expected</li>
+        </ol>
+      </li>
     </ol>
      <ol>
     <li>Education/ Interests Page:
-    <ol>
-    <li>Check on PC, tablet size, mobile phone size to see it works as expected</li>
-    </ol>
-     <ol>
-    <li>Header:
-        <ol>
-        <li>Check all the links work</li>
-        <li>Check on PC, tablet size, mobile phone size to see it works as expected</li>
-        </ol>
+            <ol>
+            <li>Check on PC, tablet size, mobile phone size to see it works as expected</li>
+            </ol>
     </li>
+    </ol>         
+     <ol>
+        <li>Header:
+            <ol>
+            <li>Check all the links work</li>
+            <li>Check on PC, tablet size, mobile phone size to see it works as expected</li>
+            </ol>
+        </li>
     </ol>   
         <ol>
     <li>Footer:
