@@ -17,12 +17,12 @@
         <li>Skills : The list of skill set with progress bars showing the level of knowledge in specidic areas</li>
         <li>Education / Interests : Shows Education and Interests</li>
         </ul>
-  <div class="Box-body p-5">
-  <h1>Wireframe</h1>
-  <a href="asset/wireframe/ms1_wireframe.pdf">asset/wireframe/ms1_wireframe.pdf</a>
-  </div>
+ 
+<h2>Wireframe</h2>
+https://machikolacey.github.io/milestone1/assets/wireframe/ms1_wireframe.pdf  
 
-        <h2>UX</h2>
+
+ <h2>UX</h2>
         <p>This website is for a recruiter or an hiring manager to look at my resume in depth. I focused on
         adding photographic images so they can see more examples, which is not available on my CV itself.</p>
         <p>On Homepage, they can see photos of the examples, and there are buttons below each photo. When
