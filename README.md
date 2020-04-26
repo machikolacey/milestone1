@@ -19,9 +19,14 @@
         </ul>
  
 <h2>Wireframe</h2>
+<a href="https://machikolacey.github.io/milestone1/assets/wireframe/ms1_wireframe.pdf" target="_blank">
 https://machikolacey.github.io/milestone1/assets/wireframe/ms1_wireframe.pdf  
+</a>
 
-
+<h2>Deployed Page</h2>
+<a href="https://machikolacey.github.io/milestone1/" target="_blank">
+https://machikolacey.github.io/milestone1/
+</a>
  <h2>UX</h2>
         <p>This website is for a recruiter or an hiring manager to look at my resume in depth. I focused on
         adding photographic images so they can see more examples, which is not available on my CV itself.</p>
