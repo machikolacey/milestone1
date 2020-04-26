@@ -293,6 +293,10 @@ header{background:#fff;}
     margin:0 0 40px 0;
 }
 
+.home-row h4{
+    font-weight:700;
+}
+
 .home-row img {
    box-shadow:2px 2px 2px rgba(0,0,0,0.3);
 }
@@ -441,6 +445,15 @@ footer a {
 }
 
 /*--------------------------------------Responsive */
+
+
+@media screen and (max-width:1200px) and (min-width:460px){
+    .btn {
+        padding: .250rem .6rem;
+        font-size: 0.9rem;
+        margin-bottom:5px;
+    } 
+}
 @media screen and (max-width:768px){
     ul.contact li{
         display:inline-block;
