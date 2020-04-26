@@ -68,16 +68,47 @@ https://machikolacey.github.io/milestone1/assets/wireframe/ms1_wireframe.pdf
         </ul>
     <h2>Testing</h2>    
     <ol>
-    <li>Graphic Photos:
+    <li>Home Page:
     <ol>
-    <li>Go to the "Graphics" page</li>
-    <li>Try to click on one of the photos to see if it triggers a photo slider to open.</li>
-    <li>See if right arrow appears for the next photo and it works</li>
-    <li>See if the left arrow  appears for the previous photo and it works</li>
-    <li>See if the caption is displayed</li>
+    <li>Under 'Available on Github', click on 'Deployed' button to see it opens up another window to the link.</li>
+    <li>Under 'Available on Github', click on 'Code' button to see it opens up another window to the link.</li>
+    <li>Under 'Examples',  click on 'Code' button to see it opens up another window to the example page. </li>
+     <li>Check on PC, tablet size, mobile phone size to see it works as expected</li>
     </ol>
     </li>
-    </ol>                               
+    </ol> 
+    <ol>
+    <li>Overview Page:
+    <ol>
+    <li>Check on PC, tablet size, mobile phone size to see it works as expected</li>
+    </ol>
+     <ol>
+    <li>Skills Page:
+    <ol>
+    <li>Check on PC, tablet size, mobile phone size to see it works as expected</li>
+    </ol>
+     <ol>
+    <li>Education/ Interests Page:
+    <ol>
+    <li>Check on PC, tablet size, mobile phone size to see it works as expected</li>
+    </ol>
+     <ol>
+    <li>Header:
+        <ol>
+        <li>Check all the links work</li>
+        <li>Check on PC, tablet size, mobile phone size to see it works as expected</li>
+        </ol>
+    </li>
+    </ol>   
+        <ol>
+    <li>Footer:
+        <ol>
+        <li>Check all the links work</li>
+        <li>In 'Contact' area, check email link and the 'Downlod CV' links work</li>
+        <li>Check on PC, tablet size, mobile phone size to see it works as expected</li>
+        </ol>
+    </li>
+    </ol>                           
     <h2><a id="user-content-deployment" class="anchor" aria-hidden="true" href="#deployment"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Deployment</h2>
     <p>The page is deployed by Github pages. There is only master branch.</p>
     <p>In addition, if it is not obvious, you should also describe how to run your code locally.</p>
