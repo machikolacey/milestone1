@@ -3,11 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 body{
-    font-family:"Roboto", sans-serif;
+    font-family:"Lato", sans-serif;
     color: #4e4b4b;
 }
 p, ul li{
     font-size:1.1rem;
+    color: #222;
 }
 
 
@@ -343,7 +344,7 @@ footer a {
     padding: 4em 2em 0em 2em;
     position: relative;
     border-left: 1px solid;
-
+    font-size: 1.2rem;
 }
 .timeline-item h3{
     font-weight:700;
