@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@469&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    font-family:"Roboto", sans-serif;
+    color: #4e4b4b;
+}
+p, ul li{
+    font-size:1.1rem;
+}
+
+
 *{
   margin:0;
   padding:0;
@@ -82,11 +93,7 @@ fieldset {
     margin: 0 10px 0 10px;
 }
 
-body{
-    font-family:Lato;
-    color:#777777;
-    font-size:1em;
-  }
+
 .row img{
     max-width:100%;
 }
@@ -302,7 +309,8 @@ header{background:#fff;}
 }
 
 .home-row h4{
-    font-weight:700;
+    font-weight: 700;
+    margin: 10px 0;
 }
 
 .home-row img {
@@ -458,15 +466,23 @@ footer a {
 @media screen and (max-width:1200px) and (min-width:460px){
     .btn {
         padding: .250rem .6rem;
-        font-size: 0.9rem;
+        font-size: 1.1rem;
         margin-bottom:5px;
         width: 100%;
+       
     } 
+    .btn-secondary{
+        text-align: left;
+        padding-left: 0;
+    }
 }
 @media screen and (max-width:794px){
     .navbar-light .navbar-nav .nav-link {
         padding-left: 10px;
     }
+    .btn-secondary{
+        padding-left: 0;
+    } 
 }
 @media screen and (max-width:768px){
     ul.contact li{
