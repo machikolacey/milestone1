@@ -183,7 +183,9 @@ h2{
     border-bottom:4px solid #fff;
 }
 
-
+.navbar-light .navbar-nav .nav-link{
+    border-bottom: 4px solid transparent;
+}
 .bg-light {
     padding: 5px 0;
     background: #f79621 !important;
