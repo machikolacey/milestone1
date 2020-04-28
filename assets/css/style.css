@@ -191,19 +191,15 @@ h2{
 
 /*--------------------------------------Fonts */
 h1{
-    font-family:Oswald, sans-serif;
-    font-size: 1.8em;
+    font-family:"Oswald", sans-serif;
+    font-size: 2.4rem;
 }
 .progress{
     margin-bottom: 5px;
 }
 /*--------------------------------------Header */
 
-.header-top h1{
-    text-transform:uppercase;
-    font-size:1.6em;
-    line-height: 55px;
-}
+
 .skills{
     height:200px;
 }
@@ -275,7 +271,6 @@ header{background:#fff;}
     background-size:contain;
     background-repeat:no-repeat;
 }
-
 
 .section-column ul > li{
     margin:0 0 20px 0;
@@ -385,43 +380,6 @@ footer a {
 }
 
 .skillset .fa{display:block;}
-
-
-/* ----------------------------------------Skills bar */
-.bar100{
-    width:100%;
-}
-
-.bar95{
-    width:95%;
-}
-
-.bar90{
-    width:90%;
-}
-.bar85{
-    width:85%;
-}
-.bar80{
-    width:80%;
-}
-.bar75{
-    width:75%;
-}
-.bar70{
-    width:70%;
-}
-.bar65{
-    width:65%;
-}
-.bar60{
-    width:60%;
-}
-.bar55{
-    width:55%;
-}
-
-
 
 .photo{
     clear:both;
