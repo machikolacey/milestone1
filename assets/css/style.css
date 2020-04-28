@@ -69,11 +69,11 @@ legend{
     margin-top: 45px;
     border-bottom: 4px solid #ddd;
 }
-fieldset{
-    margin:10px 0 0 0;
+
+
+fieldset {
+    margin: 20px 0 0 0;
 }
-
-
 
 .main-content h1.heading{
     margin-bottom:20px;
@@ -434,10 +434,10 @@ footer a {
   }
 
     @media (max-width: 400px) {
-    .btn.filter {
-    padding-left: 1.1rem;
-    padding-right: 1.1rem;
-    }
+        .btn.filter {
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+        }
     }
 
 .education-logo{
