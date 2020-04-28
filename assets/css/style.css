@@ -187,6 +187,7 @@ h2{
 .bg-light {
     padding: 5px 0;
     background: #f79621 !important;
+    min-height: 59px;
 }
 
 /*--------------------------------------Fonts */
