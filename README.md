@@ -46,19 +46,11 @@ https://machikolacey.github.io/milestone1/
         <h2>Technologies Used</h2>
         <ul>
         <li><a href="https://jquery.com" rel="nofollow">JQuery</a>
-            <ul>
-            <li>The project uses <strong>JQuery</strong> to simplify DOM manipulation.</li>
-            </ul>
-        </li>
+          <br />The project uses <strong>JQuery</strong> to simplify DOM manipulation.</li>
         <li><a href="https://getbootstrap.com/" rel="nofollow">Bootstrap</a>
-            <ul>Bootstrap</strong> to display a clean responsive layout.</li>
-            </ul>
-        </li>
+            <br />Bootstrap</strong> to display a clean responsive layout.</li>
         <li><a href="https://fontawesome.com/" rel="nofollow">FontAwesome</a>
-            <ul>
-            <li>The project uses <strong>FontAwesome</strong> to display effective buttons.</li>
-            </ul>
-        </li>
+    <br />The project uses <strong>FontAwesome</strong> to display effective buttons.</li>
         </ul>
     <h2>Testing</h2>    
     <ol>
